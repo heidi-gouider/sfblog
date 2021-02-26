@@ -1,3 +1,16 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+
+article:
+    path: /article
+    controller: App\Controller\ArticleController::index
+
+detail:
+    path: /article/{id}
+    controller: App\Controller\ArticleController::detail
+
+create:
+    path: /articlecreate
+    controller: App\Controller\ArticleController::create
